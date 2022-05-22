@@ -1,0 +1,18 @@
+$main-color: #eee;
+$main-color-2: #999;
+$highlight-color: #2a96db;
+$highlight-color-hover: lighten($highlight-color, 10%);
+$main-width: 1280px;
+$header-footer-height: 64px;
+
+@mixin flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
